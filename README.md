@@ -10,14 +10,16 @@ You can install **HTML Tag Parser** by including this file in your project like 
 ```
 or just copy paste the code in src/*html-tag-parser.js* file to your javascript code.
 
+## See it in Action
+LIVE : [code snippet](http://requirebin.com/?gist=87be5657331e93a4ce7598e0e6dd5721)
 
-### Usage
+## Usage
 
 **HTML Tag Parser** takes 2 parameters:
 1. *HTML text to be parsed*
 2. *Tag that needs to be picked*, in the text passed as param 1.
 
-### Example
+## Example
 
 ```javascript
 var textToParse = "First few words <b>text inside first tag</b> free floating text <b>text inside the second tag</b> this is the end of statement";
