@@ -1,6 +1,5 @@
 
 var HtmlParser = function(textToParse, tagToPick) {
-
 	var openTag = tagToPick;
   var closetag = tagToPick[0] + '/' + tagToPick.substr(1);
   var splitArray = text.split(openTag);
