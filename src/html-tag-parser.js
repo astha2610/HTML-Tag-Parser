@@ -16,8 +16,8 @@ var HtmlParser = function(textToParse, tagToPick) {
   splitArray.forEach(function(txt, ind) {
     var secondSplit = txt.split(closetag);
     var tempObj = {};
-    tempObj.msg = secondSplit[0] || '';
-    tempObj.postText = secondSplit[1] || '';
+    tempObj.textInsideTag = secondSplit[0] || '';
+    tempObj.textAfterTag = secondSplit[1] || '';
     textArray.push(tempObj);
   });
 
